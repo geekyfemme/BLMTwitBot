@@ -33,7 +33,8 @@ def respond_to_tweets
         puts "Replied to: #{status.user.screen_name} (#{status.id}) => #{reply}\n____________________________________________"
         temp_last_search=status.id
       rescue => e
-        binding.pry
+        puts e.inspect
+        #binding.pry
       end
     end
   end
