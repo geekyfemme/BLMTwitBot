@@ -44,6 +44,3 @@ def respond_to_tweets
 end
 
 respond_to_tweets
-
-
-binding.pry
